@@ -1,0 +1,30 @@
+/* Styling for the buttons and list */
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #000000;
+}
+
+ul {
+    padding: 0;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button.remove-item {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+button.remove-item:hover {
+    background-color: #c82333;
+}
